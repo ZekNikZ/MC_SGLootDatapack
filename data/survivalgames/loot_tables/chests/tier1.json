@@ -3,20 +3,14 @@
     "pools": [
         {
             "rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "survivalgames:generic/tier1"
+                "min": {
+                    "min": 2,
+                    "max": 3
+                },
+                "max": {
+                    "min": 3,
+                    "max": 4
                 }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 1,
-                "max": 2
             },
             "entries": [
                 {
