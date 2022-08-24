@@ -6,22 +6,8 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:apple",
+                    "name": "minecraft:cooked_chicken",
                     "weight": 8,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:porkchop",
-                    "weight": 6,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -34,14 +20,14 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cookie",
-                    "weight": 6,
+                    "name": "minecraft:apple",
+                    "weight": 8,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 3,
-                                "max": 4
+                                "min": 2,
+                                "max": 3
                             }
                         }
                     ]
@@ -59,7 +45,7 @@
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 1,
+                                "min": 2,
                                 "max": 3
                             }
                         }
@@ -67,8 +53,13 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cooked_chicken",
-                    "weight": 8,
+                    "name": "minecraft:wooden_sword",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:porkchop",
+                    "weight": 6,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -86,14 +77,14 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:feather",
-                    "weight": 2,
+                    "name": "minecraft:cookie",
+                    "weight": 6,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 1,
-                                "max": 3
+                                "min": 2,
+                                "max": 4
                             }
                         }
                     ]
@@ -114,17 +105,18 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:flint",
-                    "weight": 4,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
+                    "name": "minecraft:leather_leggings",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 4
                 },
                 {
                     "type": "minecraft:item",
@@ -142,8 +134,27 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:leather_helmet",
+                    "name": "minecraft:flint",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_axe",
                     "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 3
                 },
                 {
                     "type": "minecraft:item",
@@ -152,13 +163,17 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:leather_leggings",
-                    "weight": 4
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_boots",
-                    "weight": 4
+                    "name": "minecraft:gold_ingot",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
@@ -167,7 +182,27 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:golden_chestplate"
+                    "name": "minecraft:golden_boots",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:feather",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
@@ -175,12 +210,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:golden_boots",
-                    "weight": 2
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:chainmail_leggings"
+                    "name": "minecraft:golden_chestplate"
                 },
                 {
                     "type": "minecraft:item",
@@ -188,18 +218,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wooden_sword",
-                    "weight": 6
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wooden_axe",
-                    "weight": 3
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:golden_sword",
-                    "weight": 4
+                    "name": "minecraft:chainmail_leggings"
                 },
                 {
                     "type": "minecraft:item",
@@ -207,8 +226,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:fishing_rod",
-                    "weight": 2
+                    "name": "minecraft:crossbow"
                 }
             ]
         }
